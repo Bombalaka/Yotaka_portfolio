@@ -1,0 +1,102 @@
+﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/* Set a black background for the entire page */
+.full-page-bg {
+  background-color: #129806 !important; 
+  color: white; /* Makes text readable */
+  margin: 0;
+  padding: 0;
+}
+/* Ensure full height layout */
+html, body {
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure full-page height */
+}
+
+/* Expands to push footer down */
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.content {
+  flex: 1; /* Pushes the footer to the bottom */
+}
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a {
+  color: #0077cc;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+  
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer {
+  
+  background-color: rgba(215, 25, 212, 0.8); /* Optional: Semi-transparent */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: auto; /* Removes extra space */
+}
+
+/* Custom color for the navbar */
+.navbar-custom {
+  background-color: rgba(90, 7, 64, 0.2); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  
+}
+/* Change the text color of the navbar links */
+.navbar-custom .nav-link {
+  color: #ffffff !important; 
+}
+
+/* Change the text color of the navbar brand */
+.navbar-custom .navbar-brand {
+  color: #ffffff !important; 
+}
+
+/* Change the text color of the navbar toggler icon */
+.navbar-custom .navbar-toggler-icon {
+  filter: invert(1); /* Invert the icon color */
+}

@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Project Details";
+}
+<h1>@ViewData["ProjectTitle"]</h1>
+<p><strong>Description:</strong> @ViewData["Description"]</p>
+<p><strong>Technologies:</strong> @ViewData["Technologies"]</p>
+@if (!string.IsNullOrEmpty(ViewData["GitHubUrl"] as string))
+{
+    <p><a href="@ViewData["GitHubUrl"]" target="_blank">🔗 View on GitHub</a></p>
+}
+
+@if (!string.IsNullOrEmpty(ViewData["ImageUrl"] as string))
+{
+    <img src="@ViewData["ImageUrl"]" alt="Project Screenshot" style="width: 80%;">
+}
+
+<a href="/Projects">⬅ Back to Projects</a>

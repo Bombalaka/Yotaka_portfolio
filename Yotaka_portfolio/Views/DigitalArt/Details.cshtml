@@ -1,0 +1,20 @@
+@{
+    ViewData["Title"] = "My Digital Art";
+}
+
+<div class="container text-center mt-4">
+    <div class="card mx-auto p-3 shadow-lg" style="max-width: 600px;">
+        <img src="@ViewData["ImageUrl"]" class="artwork-image img-fluid" alt="Artwork ">
+        <div class="card-body">
+            <h2 class="card-title">@ViewData["ArtworkTitle"]</h2>
+            <p class="card-text"><strong>Description:</strong> @ViewData["Description"]</p>
+
+            @if (!string.IsNullOrEmpty(ViewData["DownloadUrl"] as string))
+            {
+                <a href="@ViewData["DownloadUrl"]" class="btn btn-success" target="_blank">⬇ Download Artwork</a>
+            }
+
+            <a href="/DigitalArt" class="btn btn-secondary">⬅ Back to Art Gallery</a>
+        </div>
+    </div>
+</div>
