@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Yotaka_portfolio.props" />
+</Project>

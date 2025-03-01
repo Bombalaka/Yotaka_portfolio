@@ -6,9 +6,9 @@
 RESOURCE_GROUP_NAME=dotnetdemo
 VM_NAME=dotnetdemo-vm
 PORT=5000
-LOCATION = northeurope
-ADMIN_USER = azureuser
-RUNTIME = "9.0"
+LOCATION="northeurope"
+ADMIN_USER="azureuser"
+RUNTIME="9.0"
 
 # local paths
 LOCAL_APP_DIR=$(cygpath -u "C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio")
@@ -58,63 +58,68 @@ PUBLIC_IP=$(az vm show \
 # step 5: Publish the .net mvc app .
 # ========================
 echo "Publishing the .NET MVC app..."
-cd "$LOCAL_APP_DIR" || {echo "Directory not found: $LOCAL_APP_DIR"; exit 1;}
-dotnet publish $LOCAL_APP_DIR -o $LOCAL_PUBLISH_DIR || {echo "Failed to publish the app."; exit 1;}
+cd "$LOCAL_APP_DIR" || { echo "❌ ERROR: App directory not found!"; exit 1; }
+dotnet publish -c Release -o "$LOCAL_PUBLISH_DIR" || { echo "❌ ERROR: Build failed!"; exit 1; }
 echo "build successful"
 
 # ========================
-# step 5: Deploy app to the vm .
+# step 6: Create the directory on the VM and set permissions.
+# ========================
+echo "Creating directory on the VM..."
+ssh -o StrictHostKeyChecking=no $ADMIN_USER@$PUBLIC_IP << EOF
+    sudo mkdir -p /opt/Yotaka_portfolio
+    sudo chown $ADMIN_USER:$ADMIN_USER /opt/Yotaka_portfolio
+    echo "$ADMIN_USER ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/$ADMIN_USER
+EOF
+
+# ========================
+# step 7: Deploy app to the vm .
 # ========================
 echo "Deploying the app to the VM..."
-scp -r -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null "$LOCAL_PUBLISH_DIR" $ADMIN_USER@$PUBLIC_IP:/opt/Yotaka_portfolio/ || {echo "Failed to deploy the app."; exit 1;}
+scp -r -o StrictHostKeyChecking=no "$LOCAL_PUBLISH_DIR"/* "$ADMIN_USER@$PUBLIC_IP:/opt/Yotaka_portfolio/" || { echo "Failed to deploy the app."; exit 1; }
 echo "Deployment successful"
 
 # ========================
-# step 6: Deploy app to the vm and configure enviroment.
+# step 8: Deploy app to the vm and configure enviroment.
 # ========================
 echo "Deploying the app to the VM..."
 ssh -o StrictHostKeyChecking=no $ADMIN_USER@$PUBLIC_IP << EOF
-    echo "Installing .NET runtime..."
-    sudo apt-get update
-    wget https://packages.microsoft.com/config/ubuntu/24.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-    sudo dpkg -i packages-microsoft-prod.deb
-    rm packages-microsoft-prod.deb
+echo "Installing .NET runtime..."
+sudo apt-get update
+wget https://packages.microsoft.com/config/ubuntu/24.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
 
-    # update package 
-    sudo apt-get update
-    sudo apt-get install -y dotnet-sdk-9.0
-    sudo apt-get install -y aspnetcore-runtime-9.0
+# update package 
+sudo apt-get update
+sudo apt-get install -y dotnet-sdk-9.0
+sudo apt-get install -y aspnetcore-runtime-$RUNTIME
 
-    # create a directory for the app
-    sudo mkdir -p /opt/Yotaka_portfolio
-
-    # copy the app to the app directory
-    sudo cp -r /opt/Yotaka_portfolio/* /opt/Yotaka_portfolio/
-
-    echo "Create service file for the application..."
-    sudo bash -c "cat > /etc/systemd/system/Yotaka_portfolio.service << 'INNER_EOF'
+echo "Create service file for the application..."
+sudo bash -c "cat > /etc/systemd/system/Yotaka_portfolio.service << 'INNER_EOF'
     [Unit]
-    Description=Yotaka_portfolio
-    [Service]
-    WorkingDirectory=/opt/Yotaka_portfolio
-    ExecStart=/usr/bin/dotnet /opt/Yotaka_portfolio/Yotaka_portfolio.dll
-    Group=www-data
-    User=www-data
-    Environment=DOTNET_ENVIROMENT=Production
-    Environment=ASPNETCORE_URLS=http://0.0.0.0:5000
-    [Install]
-    WantedBy=multi-user.target
-    INNER_EOF"
-    
-    # Enable and start the service
-    sudo systemctl enable Yotaka_portfolio.service
-    sudo systemctl start Yotaka_portfolio.service
+Description=MVC App
+After=network.target
 
-    echo "Starting the app..."
+[Service]
+ExecStart=/usr/bin/dotnet /opt/Yotaka_portfolio/Yotaka_portfolio.dll --urls http://0.0.0.0:$APP_PORT
+WorkingDirectory=/opt/Yotaka_portfolio
+Restart=always
+RestartSec=10
+User=$ADMIN_USER
+Environment=ASPNETCORE_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target
+INNER_EOF"
+
+    # Start service
+    sudo systemctl enable mvcapp.service
+    sudo systemctl start mvcapp.service
 EOF
 # ========================
-# step 7: Final confirmation .
+# step 9: Final confirmation .
 # ========================
 echo "The app is running at http://$PUBLIC_IP:5000"
 
-  
+
