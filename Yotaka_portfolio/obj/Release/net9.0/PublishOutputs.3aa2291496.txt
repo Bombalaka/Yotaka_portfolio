@@ -1,0 +1,7 @@
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\publish\Yotaka_portfolio.exe
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\publish\appsettings.Development.json
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\publish\appsettings.json
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\publish\Yotaka_portfolio.dll
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\publish\Yotaka_portfolio.deps.json
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\publish\Yotaka_portfolio.runtimeconfig.json
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\publish\Yotaka_portfolio.pdb

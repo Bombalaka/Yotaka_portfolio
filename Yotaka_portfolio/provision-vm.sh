@@ -17,7 +17,7 @@ LOCAL_PUBLISH_DIR=$(cygpath -u "C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio
 # ========================
 # step 1: Create a resource group.
 # ========================
-echo "Creating Azure resource group: $RESOURCE_GROUP in $LOCATION..."
+echo "Creating Azure resource group: $RESOURCE_GROUP_NAME in $LOCATION..."
 az group create --name $RESOURCE_GROUP_NAME --location $LOCATION
 
 # ========================
@@ -97,25 +97,28 @@ sudo apt-get install -y aspnetcore-runtime-$RUNTIME
 
 echo "Create service file for the application..."
 sudo bash -c "cat > /etc/systemd/system/Yotaka_portfolio.service << 'INNER_EOF'
-    [Unit]
+[Unit]
 Description=MVC App
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/dotnet /opt/Yotaka_portfolio/Yotaka_portfolio.dll --urls http://0.0.0.0:$APP_PORT
+ExecStart=/usr/bin/dotnet /opt/Yotaka_portfolio/Yotaka_portfolio.dll --urls http://0.0.0.0:${PORT}
 WorkingDirectory=/opt/Yotaka_portfolio
 Restart=always
 RestartSec=10
-User=$ADMIN_USER
+User=www-data
 Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
+Environment=APP_PORT=${PORT}
 
 [Install]
 WantedBy=multi-user.target
 INNER_EOF"
 
-    # Start service
-    sudo systemctl enable mvcapp.service
-    sudo systemctl start mvcapp.service
+# Start service
+sudo systemctl daemon-reload
+sudo systemctl enable Yotaka_portfolio.service
+sudo systemctl start Yotaka_portfolio.service
 EOF
 # ========================
 # step 9: Final confirmation .

@@ -3,7 +3,7 @@ for details on configuring this project to bundle and minify static web assets. 
 /* Wrapper for content & footer */
 /* Set a black background for the entire page */
 .full-page-bg {
-  background-color: #ffffff !important; /* Black */
+  background-color: #338615 !important; 
   color: white; /* Makes text readable */
   margin: 0;
   padding: 0;

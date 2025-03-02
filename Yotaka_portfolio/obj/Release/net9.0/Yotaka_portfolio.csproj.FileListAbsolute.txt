@@ -93,5 +93,11 @@ C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\refint\Yotak
 C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\Yotaka_portfolio.pdb
 C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\Yotaka_portfolio.genruntimeconfig.cache
 C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\ref\Yotaka_portfolio.dll
-C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\compressed\ktqcd6a3y8-c98eimse57.gz
-C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\compressed\waalozyytv-c98eimse57.gz
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\compressed\ktqcd6a3y8-4rr9n9o8bv.gz
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\compressed\waalozyytv-4rr9n9o8bv.gz
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\bin\Release\net9.0\publish\appsettings.Development.json
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\bin\Release\net9.0\publish\appsettings.json
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\bin\Release\net9.0\publish\Yotaka_portfolio.deps.json
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\bin\Release\net9.0\publish\Yotaka_portfolio.runtimeconfig.json
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\bin\Release\net9.0\publish\web.config
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\bin\Release\net9.0\publish\Yotaka_portfolio.staticwebassets.endpoints.json
