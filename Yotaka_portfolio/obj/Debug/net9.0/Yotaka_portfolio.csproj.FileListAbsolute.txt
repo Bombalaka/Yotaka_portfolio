@@ -95,3 +95,9 @@ C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Debug\net9.0\ref\Yotaka_por
 C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Debug\net9.0\compressed\tuyw09jmte-a2w4072jn9.gz
 C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Debug\net9.0\compressed\ktqcd6a3y8-4rr9n9o8bv.gz
 C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Debug\net9.0\compressed\waalozyytv-4rr9n9o8bv.gz
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\bin\Debug\net9.0\publish\web.config
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\bin\Debug\net9.0\publish\appsettings.Development.json
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\bin\Debug\net9.0\publish\appsettings.json
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\bin\Debug\net9.0\publish\Yotaka_portfolio.deps.json
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\bin\Debug\net9.0\publish\Yotaka_portfolio.runtimeconfig.json
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\bin\Debug\net9.0\publish\Yotaka_portfolio.staticwebassets.endpoints.json

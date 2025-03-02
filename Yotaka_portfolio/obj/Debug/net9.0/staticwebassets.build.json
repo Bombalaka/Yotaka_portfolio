@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HSH+SaUvzI2kQnNxhViJ2Mgzt5opoX2vFRchCjl72BI=",
+  "Hash": "zopt5jDEAswbCz7dGqSCldz0jHakdDDJzIGtAnKJfso=",
   "Source": "Yotaka_portfolio",
   "BasePath": "_content/Yotaka_portfolio",
   "Mode": "Default",
@@ -1527,6 +1527,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\IMG_0232 - kopia.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\wwwroot\\images\\IMG_0622.JPG",
+      "SourceId": "Yotaka_portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\wwwroot\\",
+      "BasePath": "_content/Yotaka_portfolio",
+      "RelativePath": "images/IMG_0622#[.{fingerprint}]?.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k4qq0oxyyn",
+      "Integrity": "PAlqh4UebLzZUqMxpQF+ss9E9cvkix033m6pquhIeeY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\IMG_0622.JPG"
+    },
+    {
+      "Identity": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\wwwroot\\images\\IMG_0628.PNG",
+      "SourceId": "Yotaka_portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\wwwroot\\",
+      "BasePath": "_content/Yotaka_portfolio",
+      "RelativePath": "images/IMG_0628#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hzk7s6qd8a",
+      "Integrity": "A0YcP8SLrxmqOwtb0jj1cn6uTcSwsjUDbm8SVikuTpY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\IMG_0628.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\wwwroot\\images\\IMG_0629.PNG",
+      "SourceId": "Yotaka_portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\wwwroot\\",
+      "BasePath": "_content/Yotaka_portfolio",
+      "RelativePath": "images/IMG_0629#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zwm214usg8",
+      "Integrity": "g/E4sb+mO3UZvxcev3nFddYnvqIY3CPnBj6gFh/y2u4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\IMG_0629.PNG"
     },
     {
       "Identity": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\wwwroot\\images\\IMG_2094.JPG",
@@ -3837,6 +3900,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-jkgY5Fc+Lf9PztxIAMxPqeR+VBmR7DnzA45n/qhW5zA="
+        }
+      ]
+    },
+    {
+      "Route": "images/IMG_0622.JPG",
+      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\wwwroot\\images\\IMG_0622.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "219298"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PAlqh4UebLzZUqMxpQF+ss9E9cvkix033m6pquhIeeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 09:58:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PAlqh4UebLzZUqMxpQF+ss9E9cvkix033m6pquhIeeY="
+        }
+      ]
+    },
+    {
+      "Route": "images/IMG_0622.k4qq0oxyyn.JPG",
+      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\wwwroot\\images\\IMG_0622.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "219298"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PAlqh4UebLzZUqMxpQF+ss9E9cvkix033m6pquhIeeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 09:58:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k4qq0oxyyn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/IMG_0622.JPG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PAlqh4UebLzZUqMxpQF+ss9E9cvkix033m6pquhIeeY="
+        }
+      ]
+    },
+    {
+      "Route": "images/IMG_0628.hzk7s6qd8a.PNG",
+      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\wwwroot\\images\\IMG_0628.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3902963"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A0YcP8SLrxmqOwtb0jj1cn6uTcSwsjUDbm8SVikuTpY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 18:46:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hzk7s6qd8a"
+        },
+        {
+          "Name": "label",
+          "Value": "images/IMG_0628.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A0YcP8SLrxmqOwtb0jj1cn6uTcSwsjUDbm8SVikuTpY="
+        }
+      ]
+    },
+    {
+      "Route": "images/IMG_0628.PNG",
+      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\wwwroot\\images\\IMG_0628.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3902963"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A0YcP8SLrxmqOwtb0jj1cn6uTcSwsjUDbm8SVikuTpY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 18:46:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A0YcP8SLrxmqOwtb0jj1cn6uTcSwsjUDbm8SVikuTpY="
+        }
+      ]
+    },
+    {
+      "Route": "images/IMG_0629.PNG",
+      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\wwwroot\\images\\IMG_0629.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "391424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g/E4sb+mO3UZvxcev3nFddYnvqIY3CPnBj6gFh/y2u4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 18:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g/E4sb+mO3UZvxcev3nFddYnvqIY3CPnBj6gFh/y2u4="
+        }
+      ]
+    },
+    {
+      "Route": "images/IMG_0629.zwm214usg8.PNG",
+      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\wwwroot\\images\\IMG_0629.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "391424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g/E4sb+mO3UZvxcev3nFddYnvqIY3CPnBj6gFh/y2u4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 18:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zwm214usg8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/IMG_0629.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g/E4sb+mO3UZvxcev3nFddYnvqIY3CPnBj6gFh/y2u4="
         }
       ]
     },
