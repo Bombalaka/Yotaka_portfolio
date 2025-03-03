@@ -93,5 +93,5 @@ C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\refint\Yotak
 C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\Yotaka_portfolio.pdb
 C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\Yotaka_portfolio.genruntimeconfig.cache
 C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\ref\Yotaka_portfolio.dll
-C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\compressed\ktqcd6a3y8-3v8lx3dtgo.gz
-C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\compressed\waalozyytv-3v8lx3dtgo.gz
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\compressed\ktqcd6a3y8-ou89rxhzbp.gz
+C:\Users\yotak\Yotaka_portfolio\Yotaka_portfolio\obj\Release\net9.0\compressed\waalozyytv-ou89rxhzbp.gz

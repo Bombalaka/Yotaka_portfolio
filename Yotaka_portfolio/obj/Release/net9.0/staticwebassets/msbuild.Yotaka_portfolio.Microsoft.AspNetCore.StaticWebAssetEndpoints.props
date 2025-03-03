@@ -900,17 +900,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 19:06:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Yotaka_portfolio/Yotaka_portfolio.3v8lx3dtgo.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Yotaka_portfolio.3v8lx3dtgo.bundle.scp.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3v8lx3dtgo"},{"Name":"integrity","Value":"sha256-4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0="},{"Name":"label","Value":"_content/Yotaka_portfolio/Yotaka_portfolio.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2660"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 02 Mar 2025 19:03:36 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Yotaka_portfolio/Yotaka_portfolio.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Yotaka_portfolio.3v8lx3dtgo.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Yotaka_portfolio.ou89rxhzbp.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2660"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 02 Mar 2025 19:03:36 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EIR7YuFiUs8eTw/dFWBfUQDa06sCzqgsgYYcpoxtq1I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2658"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022EIR7YuFiUs8eTw/dFWBfUQDa06sCzqgsgYYcpoxtq1I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 20:39:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Yotaka_portfolio/Yotaka_portfolio.ou89rxhzbp.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Yotaka_portfolio.ou89rxhzbp.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ou89rxhzbp"},{"Name":"integrity","Value":"sha256-EIR7YuFiUs8eTw/dFWBfUQDa06sCzqgsgYYcpoxtq1I="},{"Name":"label","Value":"_content/Yotaka_portfolio/Yotaka_portfolio.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2658"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022EIR7YuFiUs8eTw/dFWBfUQDa06sCzqgsgYYcpoxtq1I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 20:39:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>
