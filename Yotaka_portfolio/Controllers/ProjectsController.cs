@@ -26,8 +26,8 @@ namespace Yotaka_portfolio.Controllers
         
         var projects = new[]
         {
-            new { Id = 1, Title = "Inventory Management System", Description = "A C# and SQLite inventory system.", Technologies = "C#, SQLite, Entity Framework", GitHubUrl = "https://github.com/Yotaka/InventoryApp", ImageUrl = "/images/inventory.jpg" },
-            new { Id = 2, Title = "Hostel Booking Web App", Description = "An MVC-based hostel booking system.", Technologies = "ASP.NET Core, MongoDB", GitHubUrl = "https://github.com/Yotaka/HostelBooking", ImageUrl = "/images/hostel.jpg" }
+            new { Id = 1, Title = "Inventory Management System", Description = "A C# and in-memory data storage.", Technologies = "C#, SQLite, Entity Framework", GitHubUrl = "https://github.com/Bombalaka/Inventory_system.git", ImageUrl = "/images/inventory.jpg" },
+            new { Id = 2, Title = "Expenses App", Description = "An Expenses App with in-memory data storage.", Technologies = "ASP.NET Core, Entity Framwork", GitHubUrl = "https://github.com/Bombalaka/ExpensesApp.git", ImageUrl = "https://plus.unsplash.com/premium_photo-1679784204551-013181bb687f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXhwZW5zZXMlMjBhcHB8ZW58MHx8MHx8fDA%3D" }
         };
 
         var project = projects.FirstOrDefault(p => p.Id == id);

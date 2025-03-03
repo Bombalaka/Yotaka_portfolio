@@ -69,7 +69,7 @@ echo "Creating directory on the VM..."
 ssh -o StrictHostKeyChecking=no $ADMIN_USER@$PUBLIC_IP << EOF
     sudo mkdir -p /opt/Yotaka_portfolio
     sudo chown $ADMIN_USER:$ADMIN_USER /opt/Yotaka_portfolio
-    echo "$ADMIN_USER ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/$ADMIN_USER
+    echo "$ADMIN_USER ALL=(ALL) NOPASSWD:/bin/systemctl" | sudo tee /etc/sudoers.d/$ADMIN_USER
 EOF
 
 # ========================
@@ -102,7 +102,7 @@ Description=MVC App
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/dotnet /opt/Yotaka_portfolio/Yotaka_portfolio.dll --urls http://0.0.0.0:$APP_PORT
+ExecStart=/usr/bin/dotnet /opt/Yotaka_portfolio/Yotaka_portfolio.dll --urls http://0.0.0.0:$PORT
 WorkingDirectory=/opt/Yotaka_portfolio
 Restart=always
 RestartSec=10
@@ -114,8 +114,8 @@ WantedBy=multi-user.target
 INNER_EOF"
 
     # Start service
-    sudo systemctl enable mvcapp.service
-    sudo systemctl start mvcapp.service
+    sudo systemctl enable Yotaka_portfolio.service
+    sudo systemctl start Yotaka_portfolio.service
 EOF
 # ========================
 # step 9: Final confirmation .
