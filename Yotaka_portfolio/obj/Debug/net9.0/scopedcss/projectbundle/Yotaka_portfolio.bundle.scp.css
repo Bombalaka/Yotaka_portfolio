@@ -1,10 +1,10 @@
 /* _content/Yotaka_portfolio/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
-
+/* Wrapper for content & footer */
 /* Set a black background for the entire page */
 .full-page-bg[b-p4q6kg2pz9] {
-  background-color: #129806 !important; 
+  background-color: rgb(181, 151, 151);
   color: white; /* Makes text readable */
   margin: 0;
   padding: 0;
