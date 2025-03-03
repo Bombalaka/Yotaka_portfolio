@@ -25,8 +25,9 @@ The application is built using ASP.NET Core MVC and is structured for deployment
 # 📥 Clone & Run
 
 To get started with the project, simply clone the repository:
-
+```bash
  git clone https://github.com/Bombalaka/Yotaka_portfolio.git
+```
 
 Then, navigate to the project folder and run:
 
@@ -34,9 +35,9 @@ Then, navigate to the project folder and run:
  dotnet run
 
 Now, open your browser and visit on localhost:
-
+```bash
  http://localhost:5000
-
+```
 Enjoy exploring the portfolio! 🚀
 
 # 🌐 Live Deployment
