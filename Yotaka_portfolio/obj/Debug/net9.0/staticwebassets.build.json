@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zopt5jDEAswbCz7dGqSCldz0jHakdDDJzIGtAnKJfso=",
+  "Hash": "GQ1mwAUMMMh+qTqJmp6R2kgNGr1tnKMJ8PifNH/c9aM=",
   "Source": "Yotaka_portfolio",
   "BasePath": "_content/Yotaka_portfolio",
   "Mode": "Default",
@@ -668,12 +668,12 @@
       "OriginalItemSpec": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\ktqcd6a3y8-4rr9n9o8bv.gz",
+      "Identity": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\ktqcd6a3y8-3v8lx3dtgo.gz",
       "SourceId": "Yotaka_portfolio",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Yotaka_portfolio",
-      "RelativePath": "Yotaka_portfolio#[.{fingerprint=4rr9n9o8bv}]?.styles.css.gz",
+      "RelativePath": "Yotaka_portfolio#[.{fingerprint=3v8lx3dtgo}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -682,8 +682,8 @@
       "RelatedAsset": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Yotaka_portfolio.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "038vyamotl",
-      "Integrity": "rGSqUlUmVZ0muW+s5GB6sl8FkXaCgUhWpxoDCMiLivs=",
+      "Fingerprint": "g6yko2ggdm",
+      "Integrity": "CErVCnvY+eRKE/kQg3fWkN/YkN78l5hGZGzbp+0qFuQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Yotaka_portfolio.styles.css"
@@ -1109,12 +1109,12 @@
       "OriginalItemSpec": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\waalozyytv-4rr9n9o8bv.gz",
+      "Identity": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\waalozyytv-3v8lx3dtgo.gz",
       "SourceId": "Yotaka_portfolio",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Yotaka_portfolio",
-      "RelativePath": "Yotaka_portfolio#[.{fingerprint=4rr9n9o8bv}]!.bundle.scp.css.gz",
+      "RelativePath": "Yotaka_portfolio#[.{fingerprint=3v8lx3dtgo}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -1123,8 +1123,8 @@
       "RelatedAsset": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Yotaka_portfolio.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "038vyamotl",
-      "Integrity": "rGSqUlUmVZ0muW+s5GB6sl8FkXaCgUhWpxoDCMiLivs=",
+      "Fingerprint": "g6yko2ggdm",
+      "Integrity": "CErVCnvY+eRKE/kQg3fWkN/YkN78l5hGZGzbp+0qFuQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Yotaka_portfolio.bundle.scp.css"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "4rr9n9o8bv",
-      "Integrity": "QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ=",
+      "Fingerprint": "3v8lx3dtgo",
+      "Integrity": "4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Yotaka_portfolio.styles.css"
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "4rr9n9o8bv",
-      "Integrity": "QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ=",
+      "Fingerprint": "3v8lx3dtgo",
+      "Integrity": "4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Yotaka_portfolio.bundle.scp.css"
@@ -22522,13 +22522,13 @@
       ]
     },
     {
-      "Route": "Yotaka_portfolio.4rr9n9o8bv.bundle.scp.css",
-      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\waalozyytv-4rr9n9o8bv.gz",
+      "Route": "Yotaka_portfolio.3v8lx3dtgo.bundle.scp.css",
+      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\waalozyytv-3v8lx3dtgo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000970873786"
+          "Quality": "0.000967117988"
         }
       ],
       "ResponseHeaders": [
@@ -22538,15 +22538,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1029"
+          "Value": "1033"
         },
         {
           "Name": "ETag",
-          "Value": "\"rGSqUlUmVZ0muW+s5GB6sl8FkXaCgUhWpxoDCMiLivs=\""
+          "Value": "\"CErVCnvY+eRKE/kQg3fWkN/YkN78l5hGZGzbp+0qFuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 00:15:31 GMT"
+          "Value": "Sun, 02 Mar 2025 19:02:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22566,13 +22566,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ=\""
+          "Value": "W/\"4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4rr9n9o8bv"
+          "Value": "3v8lx3dtgo"
         },
         {
           "Name": "label",
@@ -22580,12 +22580,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ="
+          "Value": "sha256-4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0="
         }
       ]
     },
     {
-      "Route": "Yotaka_portfolio.4rr9n9o8bv.bundle.scp.css",
+      "Route": "Yotaka_portfolio.3v8lx3dtgo.bundle.scp.css",
       "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Yotaka_portfolio.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22595,7 +22595,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2661"
+          "Value": "2660"
         },
         {
           "Name": "Content-Type",
@@ -22603,11 +22603,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ=\""
+          "Value": "\"4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 00:15:31 GMT"
+          "Value": "Sun, 02 Mar 2025 19:02:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22617,7 +22617,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4rr9n9o8bv"
+          "Value": "3v8lx3dtgo"
         },
         {
           "Name": "label",
@@ -22625,13 +22625,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ="
+          "Value": "sha256-4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0="
         }
       ]
     },
     {
-      "Route": "Yotaka_portfolio.4rr9n9o8bv.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\waalozyytv-4rr9n9o8bv.gz",
+      "Route": "Yotaka_portfolio.3v8lx3dtgo.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\waalozyytv-3v8lx3dtgo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22640,7 +22640,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1029"
+          "Value": "1033"
         },
         {
           "Name": "Content-Type",
@@ -22648,11 +22648,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rGSqUlUmVZ0muW+s5GB6sl8FkXaCgUhWpxoDCMiLivs=\""
+          "Value": "\"CErVCnvY+eRKE/kQg3fWkN/YkN78l5hGZGzbp+0qFuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 00:15:31 GMT"
+          "Value": "Sun, 02 Mar 2025 19:02:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22670,7 +22670,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4rr9n9o8bv"
+          "Value": "3v8lx3dtgo"
         },
         {
           "Name": "label",
@@ -22678,18 +22678,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rGSqUlUmVZ0muW+s5GB6sl8FkXaCgUhWpxoDCMiLivs="
+          "Value": "sha256-CErVCnvY+eRKE/kQg3fWkN/YkN78l5hGZGzbp+0qFuQ="
         }
       ]
     },
     {
-      "Route": "Yotaka_portfolio.4rr9n9o8bv.styles.css",
-      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\ktqcd6a3y8-4rr9n9o8bv.gz",
+      "Route": "Yotaka_portfolio.3v8lx3dtgo.styles.css",
+      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\ktqcd6a3y8-3v8lx3dtgo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000970873786"
+          "Quality": "0.000967117988"
         }
       ],
       "ResponseHeaders": [
@@ -22699,15 +22699,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1029"
+          "Value": "1033"
         },
         {
           "Name": "ETag",
-          "Value": "\"rGSqUlUmVZ0muW+s5GB6sl8FkXaCgUhWpxoDCMiLivs=\""
+          "Value": "\"CErVCnvY+eRKE/kQg3fWkN/YkN78l5hGZGzbp+0qFuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 00:15:31 GMT"
+          "Value": "Sun, 02 Mar 2025 19:02:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22727,13 +22727,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ=\""
+          "Value": "W/\"4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4rr9n9o8bv"
+          "Value": "3v8lx3dtgo"
         },
         {
           "Name": "label",
@@ -22741,12 +22741,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ="
+          "Value": "sha256-4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0="
         }
       ]
     },
     {
-      "Route": "Yotaka_portfolio.4rr9n9o8bv.styles.css",
+      "Route": "Yotaka_portfolio.3v8lx3dtgo.styles.css",
       "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\scopedcss\\bundle\\Yotaka_portfolio.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22756,7 +22756,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2661"
+          "Value": "2660"
         },
         {
           "Name": "Content-Type",
@@ -22764,11 +22764,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ=\""
+          "Value": "\"4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 00:15:31 GMT"
+          "Value": "Sun, 02 Mar 2025 19:02:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22778,7 +22778,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4rr9n9o8bv"
+          "Value": "3v8lx3dtgo"
         },
         {
           "Name": "label",
@@ -22786,13 +22786,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ="
+          "Value": "sha256-4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0="
         }
       ]
     },
     {
-      "Route": "Yotaka_portfolio.4rr9n9o8bv.styles.css.gz",
-      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\ktqcd6a3y8-4rr9n9o8bv.gz",
+      "Route": "Yotaka_portfolio.3v8lx3dtgo.styles.css.gz",
+      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\ktqcd6a3y8-3v8lx3dtgo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22801,7 +22801,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1029"
+          "Value": "1033"
         },
         {
           "Name": "Content-Type",
@@ -22809,11 +22809,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rGSqUlUmVZ0muW+s5GB6sl8FkXaCgUhWpxoDCMiLivs=\""
+          "Value": "\"CErVCnvY+eRKE/kQg3fWkN/YkN78l5hGZGzbp+0qFuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 00:15:31 GMT"
+          "Value": "Sun, 02 Mar 2025 19:02:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22831,7 +22831,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4rr9n9o8bv"
+          "Value": "3v8lx3dtgo"
         },
         {
           "Name": "label",
@@ -22839,18 +22839,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rGSqUlUmVZ0muW+s5GB6sl8FkXaCgUhWpxoDCMiLivs="
+          "Value": "sha256-CErVCnvY+eRKE/kQg3fWkN/YkN78l5hGZGzbp+0qFuQ="
         }
       ]
     },
     {
       "Route": "Yotaka_portfolio.bundle.scp.css",
-      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\waalozyytv-4rr9n9o8bv.gz",
+      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\waalozyytv-3v8lx3dtgo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000970873786"
+          "Quality": "0.000967117988"
         }
       ],
       "ResponseHeaders": [
@@ -22860,15 +22860,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1029"
+          "Value": "1033"
         },
         {
           "Name": "ETag",
-          "Value": "\"rGSqUlUmVZ0muW+s5GB6sl8FkXaCgUhWpxoDCMiLivs=\""
+          "Value": "\"CErVCnvY+eRKE/kQg3fWkN/YkN78l5hGZGzbp+0qFuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 00:15:31 GMT"
+          "Value": "Sun, 02 Mar 2025 19:02:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22888,13 +22888,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ=\""
+          "Value": "W/\"4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ="
+          "Value": "sha256-4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0="
         }
       ]
     },
@@ -22909,7 +22909,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2661"
+          "Value": "2660"
         },
         {
           "Name": "Content-Type",
@@ -22917,11 +22917,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ=\""
+          "Value": "\"4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 00:15:31 GMT"
+          "Value": "Sun, 02 Mar 2025 19:02:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22931,13 +22931,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ="
+          "Value": "sha256-4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0="
         }
       ]
     },
     {
       "Route": "Yotaka_portfolio.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\waalozyytv-4rr9n9o8bv.gz",
+      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\waalozyytv-3v8lx3dtgo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22946,7 +22946,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1029"
+          "Value": "1033"
         },
         {
           "Name": "Content-Type",
@@ -22954,11 +22954,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rGSqUlUmVZ0muW+s5GB6sl8FkXaCgUhWpxoDCMiLivs=\""
+          "Value": "\"CErVCnvY+eRKE/kQg3fWkN/YkN78l5hGZGzbp+0qFuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 00:15:31 GMT"
+          "Value": "Sun, 02 Mar 2025 19:02:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22976,18 +22976,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rGSqUlUmVZ0muW+s5GB6sl8FkXaCgUhWpxoDCMiLivs="
+          "Value": "sha256-CErVCnvY+eRKE/kQg3fWkN/YkN78l5hGZGzbp+0qFuQ="
         }
       ]
     },
     {
       "Route": "Yotaka_portfolio.styles.css",
-      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\ktqcd6a3y8-4rr9n9o8bv.gz",
+      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\ktqcd6a3y8-3v8lx3dtgo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000970873786"
+          "Quality": "0.000967117988"
         }
       ],
       "ResponseHeaders": [
@@ -22997,15 +22997,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1029"
+          "Value": "1033"
         },
         {
           "Name": "ETag",
-          "Value": "\"rGSqUlUmVZ0muW+s5GB6sl8FkXaCgUhWpxoDCMiLivs=\""
+          "Value": "\"CErVCnvY+eRKE/kQg3fWkN/YkN78l5hGZGzbp+0qFuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 00:15:31 GMT"
+          "Value": "Sun, 02 Mar 2025 19:02:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23025,13 +23025,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ=\""
+          "Value": "W/\"4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ="
+          "Value": "sha256-4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0="
         }
       ]
     },
@@ -23046,7 +23046,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2661"
+          "Value": "2660"
         },
         {
           "Name": "Content-Type",
@@ -23054,11 +23054,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ=\""
+          "Value": "\"4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 00:15:31 GMT"
+          "Value": "Sun, 02 Mar 2025 19:02:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23068,13 +23068,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QFCpQKrJToCiP0Bd0LLFi/LTUO2zZlPgbZqAkS8qaZQ="
+          "Value": "sha256-4SIy2UfzdX2/Zv0CkLpR1x4fjiiH76Es6nmNjiVFOc0="
         }
       ]
     },
     {
       "Route": "Yotaka_portfolio.styles.css.gz",
-      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\ktqcd6a3y8-4rr9n9o8bv.gz",
+      "AssetFile": "C:\\Users\\yotak\\Yotaka_portfolio\\Yotaka_portfolio\\obj\\Debug\\net9.0\\compressed\\ktqcd6a3y8-3v8lx3dtgo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23083,7 +23083,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1029"
+          "Value": "1033"
         },
         {
           "Name": "Content-Type",
@@ -23091,11 +23091,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rGSqUlUmVZ0muW+s5GB6sl8FkXaCgUhWpxoDCMiLivs=\""
+          "Value": "\"CErVCnvY+eRKE/kQg3fWkN/YkN78l5hGZGzbp+0qFuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 00:15:31 GMT"
+          "Value": "Sun, 02 Mar 2025 19:02:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23113,7 +23113,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rGSqUlUmVZ0muW+s5GB6sl8FkXaCgUhWpxoDCMiLivs="
+          "Value": "sha256-CErVCnvY+eRKE/kQg3fWkN/YkN78l5hGZGzbp+0qFuQ="
         }
       ]
     }

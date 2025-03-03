@@ -58,8 +58,8 @@ PUBLIC_IP=$(az vm show \
 # step 5: Publish the .net mvc app .
 # ========================
 echo "Publishing the .NET MVC app..."
-cd "$LOCAL_APP_DIR" || { echo "❌ ERROR: App directory not found!"; exit 1; }
-dotnet publish -c Release -o "$LOCAL_PUBLISH_DIR" || { echo "❌ ERROR: Build failed!"; exit 1; }
+cd "$LOCAL_APP_DIR" || { echo " ERROR: App directory not found!"; exit 1; }
+dotnet publish -c Release -o "$LOCAL_PUBLISH_DIR" || { echo " ERROR: Build failed!"; exit 1; }
 echo "build successful"
 
 # ========================
@@ -80,7 +80,7 @@ scp -r -o StrictHostKeyChecking=no "$LOCAL_PUBLISH_DIR"/* "$ADMIN_USER@$PUBLIC_I
 echo "Deployment successful"
 
 # ========================
-# step 8: Deploy app to the vm and configure enviroment.
+# step 8: configure enviroment. (install .NET runtime, Set up a systemd service to run the app, Start the service)
 # ========================
 echo "Deploying the app to the VM..."
 ssh -o StrictHostKeyChecking=no $ADMIN_USER@$PUBLIC_IP << EOF
@@ -92,7 +92,7 @@ rm packages-microsoft-prod.deb
 
 # update package 
 sudo apt-get update
-sudo apt-get install -y dotnet-sdk-9.0
+sudo apt-get install -y dotnet-sdk-$RUNTIME
 sudo apt-get install -y aspnetcore-runtime-$RUNTIME
 
 echo "Create service file for the application..."
@@ -106,7 +106,7 @@ ExecStart=/usr/bin/dotnet /opt/Yotaka_portfolio/Yotaka_portfolio.dll --urls http
 WorkingDirectory=/opt/Yotaka_portfolio
 Restart=always
 RestartSec=10
-User=$ADMIN_USER
+User=www-data
 Environment=ASPNETCORE_ENVIRONMENT=Production
 
 [Install]

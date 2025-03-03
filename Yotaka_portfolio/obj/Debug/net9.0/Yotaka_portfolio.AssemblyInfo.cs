@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Yotaka_portfolio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+697af2644df66f9ae19d2ef92bbf3792a13f9145")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a6f61ed6a3aa4bdfdb18b0aba0261ac58345a0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Yotaka_portfolio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Yotaka_portfolio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
